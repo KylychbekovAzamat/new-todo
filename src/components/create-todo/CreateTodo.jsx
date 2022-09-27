@@ -1,18 +1,14 @@
-import { clear } from "@testing-library/user-event/dist/clear";
 import { useState } from "react";
-import css from "./Create-Todo.css";
+import "./Create-Todo.css";
 
 const CreateTodo = (props) => {
   const [value, setValue] = useState();
-  const [sum, setSum] = useState(0);
-
-  console.log(sum);
 
   const submit = (event) => {
     event.preventDefault();
     props.addNewTodo(value);
     setValue("")
-  };
+  };  
 
   const handleChange = (event) => {
     console.log(event);
