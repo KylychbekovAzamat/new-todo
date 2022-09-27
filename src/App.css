@@ -1,0 +1,19 @@
+body {
+  background: rgb(149, 0, 255);
+}
+
+.App {
+  text-align: center;
+  background: white;
+  width: 500px;
+  margin: 120px auto;
+  border-radius: 8px;
+}
+.content {
+  padding: 15px 10px;
+}
+
+.todos-wrapper {
+  margin-top: 25px;
+  border: 1px solid rgb(11, 34, 208);
+}

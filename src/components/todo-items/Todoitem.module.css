@@ -1,0 +1,22 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    align-items: center;
+}
+.green{
+    background-color: rgba(10, 205, 10, 0.534);
+    cursor: pointer;
+    border-radius: 6px 6px 6px 6px;
+}
+.red{
+    background-color: rgba(255, 0, 0, 0.578);
+    cursor: pointer;
+    border-radius: 6px 6px 6px 6px;
+}
+.wrapper:nth-child(even){
+    background-color: rgb(208, 205, 205);
+}
+.text{
+    text-decoration: line-through;
+}
